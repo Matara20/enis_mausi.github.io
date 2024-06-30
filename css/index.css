@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 100px;
+}
+header{
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    background-image: linear-gradient(148deg, #217895 0%, #57549d 39%, #7773d4 84%);
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.illogo{
+    background-image: url(../img/Iliaunilogo.png);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin-left: 20px;
+}
+    .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+    .li{
+    color: #000000a9;
+    font-size: 22px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    transition: 0.3s;
+  }
+  .li:hover{
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow:
+  -0.1px 0px 8.6px rgba(0, 0, 0, 0.379),
+  8px 1.4px 20.4px rgba(0, 0, 0, 0.461),
+  53px 9px 66px rgba(0, 0, 0, 0.36)
+;
+  }
+
+
+
+  /*              პირველი სექცია              */
+
+
+
+  .membersbox{
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 60px;
+    position: relative;
+    padding-bottom: 70px;
+    background-image: linear-gradient(0deg, rgba(37,137,153,1) 0%, rgba(143,138,245,1) 100%);
+    padding-top: 50px;
+}
+.littlebox{
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    border-radius: 24px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    -webkit-box-shadow: 7px 9px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 19px 0px rgba(0,0,0,0.75);
+}
+ .littlebox:hover{
+  width: 410px;
+  box-shadow:
+  2.8px 2.2px 36.7px rgba(0, 0, 0, 0.068),
+  6.7px 5.4px 56.1px rgba(0, 0, 0, 0.095),
+  12.5px 10.1px 63.5px rgba(0, 0, 0, 0.115),
+  22.3px 18.1px 63px rgba(0, 0, 0, 0.138),
+  41.8px 33.8px 60.5px rgba(0, 0, 0, 0.171),
+  100px 81px 80px rgba(0, 0, 0, 0.26)
+;
+ }
+
+.text:hover{
+  font-size: 15px;
+}
+
+.tengo{
+  background-size: cover;
+}
+.membersbox .littlebox img{
+    width: 175px;
+    height: 175px;
+    border-radius: 24px;
+}
+.text p{
+    padding-top: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.maindescription{
+  display: block;
+  margin: 0 auto;
+}
+.maindescription2{
+  margin: 0;
+}
+.tonguepic{
+  display: flex;
+  justify-content: center;
+}
+#design{
+    width: 450px;
+}
+.maindescription p{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 1000px;
+}
+#more{
+  display: none;
+}
+.tonguedescription{
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*///////////////                 პირველი სექციის დასასრული                              ///////////////
+
+
+///////////////                 მეორე სექცია                              ///////////////*/
+
+
+
+
+
+  .main{
+    padding-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 1;
+    padding-bottom: 50px;
+    background-image: linear-gradient(0deg, rgba(143,138,245,1) 0%, rgba(37,137,153,1) 100%);
+  }
+  .mainheader{
+    text-align: center;
+    padding-bottom: 100px;
+    color: aqua;
+  }
+  .maindesc{
+    text-align: center;
+  }
+  .ideabox{
+    margin: 0 auto;
+    width: 800px;
+  }
+  .maxabox{
+    margin: 0 auto;
+    width: 800px;
+  }
+  .maxadesc{
+    margin-top: 30px;
+  }
+
+  h2{
+    margin-bottom: 10px;
+    font-size: xx-large;
+  }
+  .ideabox{
+    width: 1020px;
+  }
+  .ideadesc{
+    font-size: 20px;
+  }
+ .maxadesc{
+  font-size: 20px;
+ }
+ .maxabox{
+  width: 1020px;
+ }
+
+
+
+/* ///////////////                 მეორე სექციის დასასრული                              ///////////////
+
+
+
+
+
+///////////////                 მესამე სექცია                              /////////////// */
+
+
+
+
+
+
+#section3{
+  padding-top: 100px;
+  background-image: linear-gradient(0deg, rgba(37,137,153,1) 0%, rgba(143,138,245,1) 100%);
+  text-align: center;
+}
+
+.sections img{
+  width: 220px;
+  height: 200px;
+  margin-right: 100px;
+}
+.sections p{
+  padding-top: 60px;
+  width: 1400px;
+  font-size: 20px;
+}
+.header3{
+  text-align: center;
+  width: auto;
+  margin-bottom: 100px;
+}
+.block{
+  width: 1000px;
+  height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blockd{
+  text-align: center;
+  width: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.slider{
+  max-width: 1400px;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slides{
+  width: 600%;
+  height: 500px;
+  display: flex;
+}
+.collumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slides input{
+  display: none;
+}
+.sections{
+  width: 20%;
+  transition: 1s;
+  text-align: center;
+}
+
+
+
+/* manual nav */
+
+.navigation-manual{
+  position: absolute;
+  width: 1400px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid aqua;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 20px;
+}
+.manual-btn:hover{
+  background: aqua;
+}
+
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+
+
+
+
+.lastsec{
+  width: 100%;
+  display: block;
+  padding-bottom: 100px;
+  text-align: center;
+}
+/* <!-- ///////////////                 მესამე სექციის დასასრული                              /////////////// -->
+
+
+
+
+
+
+<!-- ///////////////                 footer                              /////////////// --> */
+
+
+
+footer{
+    width: 100%;
+    background-image: url(../img/footerbackground.jpg);
+}
+.topfooter{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.topfooter img{
+  width: 150px;
+  height: 150px;
+  margin-top: 40px ;
+}
+.footinformation, .footinformation a, .footcontact, .footsocial{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.topfooter h3{
+    padding-bottom: 24px;
+}
+.footinformation li{
+    padding-bottom: 16px;
+}
+.footcontact p{
+    padding-bottom: 50px;
+}
+.footericons img{
+    padding-right: 40px;
+}
+.footerline{
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+}
+.footerline p{
+  color: #fff;
+}
+.footerbottom p{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    columns: #c7c1c1b5;
+    opacity: 0.5;
+} 
